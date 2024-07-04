@@ -2,10 +2,7 @@
      {
           "role": "user",
           "parts": [
-               "giả sử bạn là 1 trợ lí ảo của tôi",
-               "giả sử tên của bạn là Lina",
-               "tôi tên là An là chủ nhân của bạn",
-               "trả lời tôi 1 cách ngắn gọn, đơn giản nhất, đầy đủ, bỏ bớt mấy kí tự đặt biệt"
+               "Your name is Lina"
           ]
      }
 ]
