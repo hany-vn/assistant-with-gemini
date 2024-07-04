@@ -1,30 +1,42 @@
-# Dự Án Tạo và Phát Nhận Dạng Giọng Nói
+# Voice Recognition and Synthesis Project
 
-## Mô tả
-Dự án này sử dụng thư viện SpeechRecognition để nhận dạng giọng nói từ người dùng và thư viện gTTS (Google Text-to-Speech) để tạo và phát ra giọng nói tổng hợp. Nó cũng sử dụng các thư viện khác như playsound để phát âm thanh, và google.generativeai để thực hiện một số tác vụ AI khác.
+## Description
+This project utilizes the SpeechRecognition library for speech recognition from users and the gTTS (Google Text-to-Speech) library for text-to-speech synthesis. It also incorporates other libraries such as playsound for audio playback, and google.generativeai for additional AI tasks.
 
-## Yêu Cầu Hệ Thống
+## System Requirements
 - Python 3.x
-- Cài đặt các thư viện được liệt kê trong tệp requirements.txt bằng lệnh: `pip install -r requirements.txt`
-- Kết nối Internet để sử dụng các dịch vụ của Google Text-to-Speech và Google Generative AI.
+- Install the required libraries listed in the `requirements.txt` file using: `pip install -r requirements.txt`
+- Internet connection is required to use Google Text-to-Speech and Google Generative AI services.
 
-## Cài Đặt
-1. Clone dự án từ repository GitHub: `git clone https://github.com/hany-vn/assistant-with-gemini`
-2. Di chuyển vào thư mục dự án: `cd your_project`
-3. Cài đặt các thư viện cần thiết: `pip install -r requirements.txt`
+## Installation
+1. Clone the project from the GitHub repository:
+git clone https://github.com/hany-vn/assistant-with-gemini
 
-## Sử Dụng
-1. Chạy file `main.py` để khởi động ứng dụng.
-2. Ứng dụng sẽ chờ đợi người dùng nói một câu.
-3. Sau khi người dùng nói xong, ứng dụng sẽ nhận dạng câu nói và phát ra giọng nói tổng hợp của nó.
+css
+Copy code
+2. Navigate to the project directory:
+cd your_project
 
-## Tùy Chỉnh
-- Bạn có thể thay đổi ngôn ngữ nhận dạng và ngôn ngữ tổng hợp giọng nói bằng cách sửa đổi các tham số trong file `main.py`.
-- Bạn cũng có thể thay đổi tốc độ của giọng nói bằng cách chỉnh sửa tham số `speed` trong hàm `gTTS()`.
+markdown
+Copy code
+3. Install the necessary libraries:
+pip install -r requirements.txt
 
-## Cảnh Báo
-- Sử dụng thư viện SpeechRecognition yêu cầu kết nối Internet để sử dụng các dịch vụ của Google. Hãy chắc chắn rằng máy tính của bạn có kết nối Internet khi chạy dự án.
-- Để tránh bị chặn bởi các chính sách bảo mật của Google, hãy sử dụng dịch vụ GTTS một cách có trách nhiệm và tuân thủ các hướng dẫn và điều khoản sử dụng của Google Text-to-Speech.
+vbnet
+Copy code
 
-## Tác Giả
-Tên Dự Án được phát triển bởi [Hany](https://github.com/hany-vn).
+## Usage
+1. Run the `main.py` file to start the application.
+2. The application will wait for the user to speak a sentence.
+3. After the user finishes speaking, the application will recognize the speech and synthesize the spoken response.
+
+## Customization
+- You can change the language for speech recognition and synthesis by modifying parameters in the `main.py` file.
+- You can also adjust the speech speed by editing the `speed` parameter in the `gTTS()` function.
+
+## Disclaimer
+- Using the SpeechRecognition library requires an Internet connection to utilize Google services. Ensure your computer is connected to the Internet when running the project.
+- To avoid being blocked by Google's privacy policies, use the gTTS service responsibly and adhere to Google Text-to-Speech usage guidelines and terms.
+
+## Author
+This project is developed by [Hany](https://github.com/hany-vn).
