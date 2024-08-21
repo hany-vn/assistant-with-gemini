@@ -45,7 +45,7 @@ def brain():
 
           if text == "error":
                method = "error"
-               brain_logic = "Tôi không nghe rõ, bạn có thể nói lại không?"
+               brain_logic = "No idea"
                error_hear += 1
           elif text == "lina":
                method = "call"
